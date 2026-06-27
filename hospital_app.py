@@ -170,7 +170,7 @@ col_temp. col_hr = st.column(2)
 with col_temp:
   temperature_level = st.selectbox("Temperature", options=list(dur_map.keys()))
   with col_hr:
-    heart_rate_level = st.selectbox("Heart Rate", options=list(hr_map.keys())))
+    heart_rate_level = st.selectbox("Heart Rate", options=list(hr_map.keys()))
 #Section 4 - Medical History
 st.markdown("""
 <div style = "backgound:#f0fdf4;border:1px solid #bb7d0;border-radius:14px;
