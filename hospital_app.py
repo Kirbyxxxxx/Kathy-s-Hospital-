@@ -293,7 +293,7 @@ for idx, dname in sorted_depts:
   is_top = dname ==dept_name
   bars_html += f""
   <div style="margin-bottom:14px;">
-      <div style="displau:flex;justify-content:s[ace-beetween;align-items:center;margin-bottom:5px;'>
+      <div style="display:flex;justify-content:s[ace-beetween;align-items:center;margin-bottom:5px;">
             <span style="font-size:13px;font-weight:{'700' if_top else '400'};
                           color:{'#111827' if is_top else '#6eb7280'};">
                 <dinfo['icon']} {dname}
