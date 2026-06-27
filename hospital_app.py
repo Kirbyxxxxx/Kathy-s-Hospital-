@@ -222,7 +222,7 @@ with st.form("triage_form"):
     'nausea_vomiting' : int(nausea_vomiting),
     'dizziness' : int(dizziness),
     'skin_rash' : int(skin_rash),
-    'tempature_level' : temp_map.get(tempature_level, 1),
+    'temperature_level' : temp_map.get(temperature_level, 1),
     'heart_rate_level' : hr_map.get(heart_rate_level, 1),
     'duration' : dur_map.get(duration, 1),
     'asthma' : int(asthma),
