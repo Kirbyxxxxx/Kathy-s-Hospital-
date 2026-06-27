@@ -250,7 +250,7 @@ st.markdown("""
 
 res_col, prob_col = st.columns([3,2])
 
-with res_col
+with res_col:
   steps_html = ''.join(
     f'<div style=display:flex;align-items:center;gap:8pxmargin-bottom6px;">'
     f'<span style="color:{info["color"]};font=size:14px;">🎈</span>
