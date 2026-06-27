@@ -149,7 +149,7 @@ with st.form("triage_form"):
     </div>
     """, unsafe_allow_html=True)
     
-    col_cc. col_dur = st.column(2)
+    col_cc, col_dur = st.column(2)
     with col_cc:
       chief_complant = st.selectbox("Chief Complaint", options=list(cc_map.keys()))
     with col_dur:
