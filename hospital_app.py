@@ -201,7 +201,7 @@ with c3:
   """, unsafe_allow_html=True)
   col_age, col_gen = st.columns(2)
   with col_age:
-    Age = st.number_input("Age", min_value = 1,max_value = 100, value 35)
+    age = st.number_input("Age", min_value = 1,max_value = 100, value,35)
   with col_gen:
     gender = st.selectbox("Gender", options=['Female','Male']
   
