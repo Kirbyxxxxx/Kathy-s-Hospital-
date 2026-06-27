@@ -168,9 +168,9 @@ with c3:
   
   col_temp. col_hr = st.column(2)
   with col_temp:
-    temperature_level = st.selectbox("Temperature", options=list(dur_map.keys()))
+    temperature_level = st.selectbox("Temperature", options=list(dur_map.keys())), index=1
     with col_hr:
-      heart_rate_level = st.selectbox("Heart Rate", options=list(hr_map.keys()))
+      heart_rate_level = st.selectbox("Heart Rate", options=list(hr_map.keys())), index==1
   #Section 4 - Medical History
   st.markdown("""
   <div style = "backgound:#f0fdf4;border:1px solid #bb7d0;border-radius:14px;
@@ -201,7 +201,7 @@ with c3:
   """, unsafe_allow_html=True)
   col_age, col_gen = st.columns(2)
   with col_age:
-    age = st.number_input("Age", min_value = 1,max_value = 100 ,value 35)
+    age = st.number_input("Age", min_value = 1,max_value = 100, value 35)
   with col_gen:
     gender = st.selectbox("Gender", options=['Female','Male']
   
