@@ -296,7 +296,7 @@ for idx, dname in sorted_depts:
       <div style="display:flex;justify-content:s[ace-beetween;align-items:center;margin-bottom:5px;">
             <span style="font-size:13px;font-weight:{'700' if is_top else '400'};
                           color:{'#111827' if is_top else '#6eb7280'};">
-                <dinfo['icon']} {dname}
+                {dinfo['icon']} {dname}
             </span>
             <span style="font-size:13px;font-weight:{'700' if is_top else '400'};
                           color:{dinfo['color'] if is_top else '#9ca3af'};">
