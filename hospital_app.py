@@ -76,6 +76,11 @@ DEPT_INFO = {
     'desc':'Specialises in brain, spine, and nervous system conditions.',
     'next':['Visist level 4, Wing A','Estimated wait: 30-40','Please bring a list of current medication']
   },
+"General Medicine": {
+    'icon':'🩺','color':'#059669','bg':'#dlfae5','border':'#6ee7b7',
+    'desc':'Handles general health concerns and non-specialist conditions.',
+    'next':['Visist level 1, Wing A','Estimated wait: 18-25 mins','Registration desk is open 24/7']
+  },
 "Dermatology": {
     'icon':'🔬','color':'#b45309','bg':'#fef9c3','border':'#fde68a',
     'desc':'Specialises in skin, hair, and nail conditions.',
