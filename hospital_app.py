@@ -89,7 +89,7 @@ DEPT_INFO = {
 }
 
 #--Hero Profile
-st.markdon("""
+st.markdown("""
 <div style="background:lenear-gradient(135deg,#1e3a8a 0%, #1a56db 60%, #0ea5e9 100%);
             padding:3rem 2 rem;margin:-1rem 2rem;text-align center;">
         <div style = "font-size:14px;font-weight:599;color:rgba(255,255,255,0.7);
