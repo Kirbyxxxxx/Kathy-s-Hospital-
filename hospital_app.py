@@ -201,7 +201,7 @@ with c3:
   """, unsafe_allow_html=True)
   col_age, col_gen = st.columns(2)
   with col_age:
-    age = st.number_input("Age", min_value = 1,max_value = 100, value,35)
+    age = st.number_input("Age", min_value = 1,max_value = 100, value 35)
   with col_gen:
     gender = st.selectbox("Gender", options=['Female','Male']
   
@@ -307,12 +307,12 @@ for idx, dname in sorted_depts:
                       transition:width 0.5 ease;"></div>
         </div>
   </div>"""
-st.markdown(bars_html + """
-  <div style="margin-top:20px;background:#eff6ff;border:1px solid #bfdbfe;
-              border-radius:10px;padding:12px 14px;font-size:12px;color:'#1e40af;'>
-      <strong>Model:</strong> KNN(k=7)    102,000patients 99.5% accuracy<br>
-      <strong>Powered By:</strong> Future Classroom ML
+  st.markdown(bars_html + """
+    <div style="margin-top:20px;background:#eff6ff;border:1px solid #bfdbfe;
+                border-radius:10px;padding:12px 14px;font-size:12px;color:'#1e40af;'>
+        <strong>Model:</strong> KNN(k=7)    102,000patients 99.5% accuracy<br>
+        <strong>Powered By:</strong> Future Classroom ML
+    </div>
   </div>
-</div>
-""",unsafe_allow_html=True)
+   """,unsafe_allow_html=True)
                   
