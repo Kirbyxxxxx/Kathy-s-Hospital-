@@ -285,7 +285,7 @@ with prob_col:
         </div>
         """,unsafe_allow_html=True)
 
-sorted_depta = sorted(dept_map_inv.items(), key=lambda x : proba[x[0]], reverse=True)
+sorted_depts = sorted(dept_map_inv.items(), key=lambda x : proba[x[0]], reverse=True)
 bars_html = ""
 for idx, dname in sorted_depts:
   pct = proba[idx] * 100
