@@ -168,9 +168,10 @@ with c3:
   
   col_temp. col_hr = st.column(2)
   with col_temp:
-    temperature_level = st.selectbox("Temperature", options=list(dur_map.keys())), index=1
+    temperature_level = st.selectbox("Temperature", options=list(temp_map.keys()), index=1
     with col_hr:
-      heart_rate_level = st.selectbox("Heart Rate", options=list(hr_map.keys())), index==1
+      heart_rate_level = st.selectbox("Heart Rate", options=list(hr_map.keys()), index==1
+      
   #Section 4 - Medical History
   st.markdown("""
   <div style = "backgound:#f0fdf4;border:1px solid #bb7d0;border-radius:14px;
