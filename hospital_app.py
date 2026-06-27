@@ -185,7 +185,7 @@ st.markdown("""
 
 ch1, ch2, ch3 = st.columns(3)
 with ch1: hypertension = st.checkbox("High Blood Pressure")
-with ch2: Heart Disease = st.checkbox("Heart Disease")
+with ch2: Heart disease = st.checkbox("Heart Disease")
 with ch3: asthma = st.checkbox("Asthma")
 
 #Section 5 - Patient Info
