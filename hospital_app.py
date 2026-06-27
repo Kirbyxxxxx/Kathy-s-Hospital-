@@ -300,7 +300,7 @@ for idx, dname in sorted_depts:
             </span>
             <span style="font-size:13px;font-weight:{'700' if is_top else '400'};
                           color:{dinfo['color'] if is_top else '#9ca3af'};">
-                  {pct.1f}%
+                  {pct:.1f}%
             </span>
         </div>
         < div style = "background:#f4f4f6;border-radius:6px;height:8px;overflow:hidden;">
