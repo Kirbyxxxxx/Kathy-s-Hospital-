@@ -261,7 +261,7 @@ with res_col:
   st.markdown(f"""
   <div style=background:{info['bg']};border:1.5px solid {info['border']};
               border-radius:16px;padding:28px 32px;">
-        <div style="font-size:44px;margin-bottom:12px;">{info['icon]}</div>
+        <div style="font-size:44px;margin-bottom:12px;">{info['icon']}</div>
         <div style="font-size:26px;font-weight:700;color:{info['color']};margin-bottom:8px;">{dept_name}</div>
         <div style="font-size:14px;color:#374151;margin-bottom:20px;">
               Our AI Suggests you visit the <strong>{dept_name}</strong> Department.
