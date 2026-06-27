@@ -166,7 +166,7 @@ with c3:
   </div>
   """, unsafe_allow_html=True)
   
-  col_temp. col_hr = st.column(2)
+  col_temp, col_hr = st.column(2)
   with col_temp:
     temperature_level = st.selectbox("Temperature", options=list(temp_map.keys()), index=1
   with col_hr:
