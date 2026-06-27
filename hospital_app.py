@@ -153,7 +153,7 @@ col_cc. col_dur = st.column(2)
 with col_cc:
   chief_complant = st.selectbox("Chief Complaint", options=list(cc_map.keys()))
   with col_dur:
-    duration = st.selectbox("Duration", options=list(dur_map.keys())))
+    duration = st.selectbox("Duration", options=list(dur_map.keys()))
 #Section 3 - Severity
 st.markdown("""
 <div style = "backgound:#B77466;border:1px solid #E2B59A;border-radius:14px;
