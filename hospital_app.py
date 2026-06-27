@@ -118,7 +118,7 @@ with st.form("triage_form"):
                   <span style="font-size:16px;font-weight:600;color:#0c4a6e;">What are your main symptoms?</span>
                   <span style="font-size:13px;color:#6b7280;font-style:italic;">Select all that apply</span>
             </div>
-    </div>
+  </div>
   """, unsafe_allow_html=True)
   
   c1, c2, c3 = st.columns(3)
