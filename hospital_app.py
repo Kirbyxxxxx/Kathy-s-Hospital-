@@ -114,12 +114,12 @@ with st.form("triage_form"):
               padding:20px 24px;margin-bottom20px;">
           <div style="display:flex;align-items:center;gap:10px;margin-bottom:4px;">
                   <span style="background:#0284c7;color:white;border-radius:8px;
-                  padding:4px 10px; font-size:12px; font-weight:600;">1</span>
+                               padding:4px 10px; font-size:12px; font-weight:600;">1</span>
                   <span style="font-size:16px;font-weight:600;color:#0c4a6e;">What are your main symptoms?</span>
-                  <span style="font-size:13px;color:#6b7280;fint-style:italic;">Select all that apply</span>
+                  <span style="font-size:13px;color:#6b7280;font-style:italic;">Select all that apply</span>
           </div>
   </div>
-""", unsage_allow_html=True)
+""", unsafe_allow_html=True)
 
 c1, c2, c3 = st.columns(3)
 with c1:
